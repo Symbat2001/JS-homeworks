@@ -40,3 +40,9 @@ let students = [
 let {name,grades: {math}, address: {city}, country = "Qazaqstan"} = students[0];
 
 console.log(`Name: ${name}`);
+console.log(`Math Grade: ${math}`);
+console.log(`City: ${city}`);
+console.log(`Country: ${country}`);
+
+
+
